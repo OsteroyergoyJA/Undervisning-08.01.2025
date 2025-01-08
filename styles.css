@@ -29,6 +29,8 @@ input {
 }
 
 button {
+  position: relative;
+  display: flex;
   padding: 10px 20px;
   background-color: rgb(62, 54, 54);
   color: aliceblue;
@@ -45,8 +47,6 @@ border-radius: 5px;
 }
 
 ul {
-  display: flex;
-  justify-self: center;
   list-style-type: none;
   padding: 0;
 
@@ -54,7 +54,10 @@ ul {
 
 li {
   display: flex;
-
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 @keyframes rainbow {
