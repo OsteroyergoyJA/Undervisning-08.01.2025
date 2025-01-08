@@ -36,7 +36,7 @@ function addTodo(item, isCompleted = false) {
 
 document.addEventListener("DOMContentLoaded", function() {
     let savedItems = JSON.parse(localStorage.getItem("items") )|| [];
-    savedItems.forEach(item => addItem(task.text, task.completed));
+    savedItems.forEach(item => addItem(item.text, item.completed));
         
     });
 
