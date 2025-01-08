@@ -5,8 +5,8 @@ document.getElementById('to-do').value="";}
 });
 
 function addTodo(task) {
-    let todoList = document.getElementById('list');
-    let li= document.createElement('li');
+    let todoList = document.getElementById('liste');
+    const li= document.createElement('li');
     li.textContent = task;
 
     let removeButton = document.createElement('button');

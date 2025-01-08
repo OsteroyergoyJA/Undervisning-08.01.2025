@@ -45,12 +45,17 @@ border-radius: 5px;
 }
 
 ul {
+  display: flex;
+  justify-self: center;
   list-style-type: none;
   padding: 0;
 
 }
 
-/* li goes here */
+li {
+  display: flex;
+
+}
 
 @keyframes rainbow {
   0% { color: red; }
